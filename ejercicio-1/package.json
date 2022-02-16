@@ -1,0 +1,22 @@
+{
+  "name": "ejercicio-1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-func index.js findPrimeNumbers 1 1000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxavibes/front-end-test-enviame.git"
+  },
+  "author": "Stefano Bozzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oxavibes/front-end-test-enviame/issues"
+  },
+  "homepage": "https://github.com/oxavibes/front-end-test-enviame#readme",
+  "dependencies": {
+    "run-func": "^2.0.0"
+  }
+}
