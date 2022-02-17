@@ -11,7 +11,9 @@
     "axios": "^0.26.0",
     "buefy": "^0.9.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "v-animate-css": "0.0.5",
+    "vue": "^2.6.11",
+    "vue-infinite-loading": "^2.4.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -35,7 +37,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",
