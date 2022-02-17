@@ -15,7 +15,9 @@ const findPrimeNumbers = (start, end) => {
     if (!counter && num > 1) primeNumbers.push(num);
   }
 
-  console.log(primeNumbers);
+  if (primeNumbers.length) {
+    console.table(primeNumbers);
+  } else console.log("No existen numeros primos en ese rango de numeros.");
 };
 
 module.exports = { findPrimeNumbers };
